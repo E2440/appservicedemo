@@ -6,9 +6,9 @@ on:
       - master
 
 env:
-  AZURE_WEBAPP_NAME: csweb0619202
+  AZURE_WEBAPP_NAME: YouTube10
   AZURE_WEBAPP_PATH: '.'
-  DOTNET_VERSION: '2.2.101'
+  DOTNET_VERSION: '7.0.101'
 
 jobs:
   build-and-deploy:
